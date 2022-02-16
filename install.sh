@@ -2,8 +2,8 @@
 #Set up the required package
 pkgs='deck'
 if ! rpm -qa | grep -i $pkgs >/dev/null 2>&1; then
-  wget https://github.com/nabad600/demo/releases/download/v1.0.0/deck-3.0.0-2.x86_64.rpm
-  sudo dnf -y localinstall deck-3.0.0-2.x86_64.rpm
+  wget https://github.com/nabad600/nodebian/releases/download/v3.0.0/Deck-3.0.0.x86_64.rpm
+  sudo dnf -y localinstall Deck-3.0.0.x86_64.rpm
 fi
 echo "Add the Docker CE repository to Fedora 35/34/33/32/31/30"
 sudo dnf -y install dnf-plugins-core
